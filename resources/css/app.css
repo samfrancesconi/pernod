@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "gill_sans";
+    src: url("/public/fonts/GillSans.ttc");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "sang_bleu_bold";
+    src: url("/public/fonts/SangBleu-Bold.otf");
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "sang_bleu_medium";
+    src: url("/public/fonts/SangBleu-Medium.otf");
+    font-weight: medium;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: "nunito_sans";
+    src: url("/public/fonts/NunitoSans_10pt-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@layer base {
+    body {
+        @apply font-gillSans
+    }
+}
+
+
+@layer components {
+    .my-input {
+        @apply !h-20
+    }
+
+    .my-input-label {
+        @apply !mt-[17px]
+    }
+
+    .my-select-label {
+        @apply !mt-[8px]
+    }
+
+    .multiselect.my-select {
+        @apply !h-20
+    }
+
+    .my-select .multiselect__tags {
+        @apply !h-20
+    }
+
+    .multiselect__single {
+        @apply !mt-[40px] !ml-[-5px]
+    }
+
+    .multiselect__select {
+        @apply !mt-[8px]
+    }
+}

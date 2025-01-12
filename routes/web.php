@@ -1,18 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EventController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function() {
+    return redirect('app');
 });
+
+# Nota: sempre meglio nominare i metodi dei controller in base alla funzione CRUD che svolgono, in questo caso show
+# Nota: quando abbiamo un access point unico per Vue Router, bisogna aggiungere la wildcard {any?},
+# altrimenti quando fai refresh dentro una pagina secondaria (es. beat/account) passa dal server che non sa risolverlo
+// Route::get('/{event}', [EventController::class, 'getEvent']);
+Route::get('/{event}/{any?}', [EventController::class, 'show']);
