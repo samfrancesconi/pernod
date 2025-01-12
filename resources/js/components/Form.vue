@@ -127,7 +127,11 @@
                     class="text-white mb-16 px-7 py-2.5 rounded-md"
                     @click="send"
                 >
-                    <!-- <img :src="require('@/assets/cta-continua.sip.png')" alt="Image"> -->
+                    <!-- <img src="/assets/cta-continua-sip.png"> -->
+                    <h2 class="relative text-8xl inline-block">
+                        <span class="absolute bottom-[-20%] left-0 w-full h-[50px] bg-[#fd3c53] -translate-y-1/2"></span>
+                        <span class="relative z-10 text-black">CONTINUA</span>
+                    </h2>
                 </button>
             </div>
         </div>
