@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full max-w-3xl px-4 mt-10">
+    <div class="w-full max-w-3xl px-4 mt-10" id="beginning">
         <div>
             <div class="mb-4">
                 <dm-input :label="'Nome*'" v-model="record.name" />
@@ -128,8 +128,8 @@
                     @click="send"
                 >
                     <!-- <img src="/assets/cta-continua-sip.png"> -->
-                    <h2 class="relative text-8xl inline-block">
-                        <span class="absolute bottom-[-20%] left-0 w-full h-[50px] bg-[#fd3c53] -translate-y-1/2"></span>
+                    <h2 class="relative text-4xl md:text-5xl lg:text-8xl inline-block">
+                        <span class="absolute bottom-[-60%] lg:bottom-[-20%] left-0 w-full h-[30px] lg:h-[50px] bg-[#fd3c53] -translate-y-1/2"></span>
                         <span class="relative z-10 text-black">CONTINUA</span>
                     </h2>
                 </button>
@@ -190,8 +190,13 @@
             async send() {
                 const result = await this.v$.$validate();
 
-                if(!result) 
+                if(!result) {
+                    document.getElementById('beginning').scrollIntoView({
+                        behavior: 'smooth'
+                    });
                     return
+                }
+                    
 
                 router.push('./ty_business');
 

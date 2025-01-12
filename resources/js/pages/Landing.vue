@@ -24,8 +24,8 @@
         >
             <!-- <img src="/assets/cta-registrati-sip.png" alt="Image"> -->
 
-            <h2 class="relative text-8xl inline-block">
-                <span class="absolute bottom-[-20%] left-0 w-full h-[50px] bg-[#fd3c53] -translate-y-1/2"></span>
+            <h2 class="relative text-4xl md:text-5xl lg:text-8xl inline-block">
+                <span class="absolute bottom-[-60%] lg:bottom-[-20%] left-0 w-full h-[30px] lg:h-[50px] bg-[#fd3c53] -translate-y-1/2"></span>
                 <span class="relative z-10">REGISTRATI</span>
             </h2>
             
