@@ -40,12 +40,12 @@
       "resources/js/pages/TyConsumer.vue",
       "resources/js/pages/TyBusiness.vue"
     ],
-    "file": "assets/app-90379354.js",
+    "file": "assets/app-cf7bd528.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
   "resources/js/pages/Account.vue": {
-    "file": "assets/Account-d4b1e17f.js",
+    "file": "assets/Account-64b67d5a.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -53,7 +53,7 @@
     "src": "resources/js/pages/Account.vue"
   },
   "resources/js/pages/DataInsert.vue": {
-    "file": "assets/DataInsert-cfa2f88e.js",
+    "file": "assets/DataInsert-92744526.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -61,7 +61,7 @@
     "src": "resources/js/pages/DataInsert.vue"
   },
   "resources/js/pages/Landing.vue": {
-    "file": "assets/Landing-58d56c99.js",
+    "file": "assets/Landing-d26d8d1a.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -69,7 +69,7 @@
     "src": "resources/js/pages/Landing.vue"
   },
   "resources/js/pages/TyBusiness.vue": {
-    "file": "assets/TyBusiness-ecda6e3a.js",
+    "file": "assets/TyBusiness-e93c1ed9.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -77,7 +77,7 @@
     "src": "resources/js/pages/TyBusiness.vue"
   },
   "resources/js/pages/TyConsumer.vue": {
-    "file": "assets/TyConsumer-6b3b6a37.js",
+    "file": "assets/TyConsumer-e34c4d58.js",
     "imports": [
       "resources/js/app.js"
     ],

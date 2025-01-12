@@ -1,5 +1,5 @@
 <template>
-   <section class="flex items-center flex-col bg-lightGreen">
+   <section class="flex items-center flex-col bg-lightGreen" id="page-start">
       <img class="w-full" :src="'/assets/header-triangoli-businessform.png'" />
 
       <h1 class="text-darkGreen font-sangBleuMedium text-3xl mt-16">
@@ -17,7 +17,11 @@
 
 <script>
 export default {
-   
+   mounted() {
+      document.getElementById('page-start').scrollIntoView({
+         behavior: 'smooth'
+      });
+   }
 }
 
 </script>
