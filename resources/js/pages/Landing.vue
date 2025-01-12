@@ -22,7 +22,7 @@
             to="/beat/business"
             class="px-7 py-12 rounded-md"
         >
-            <img class="w-60" src="/assets/cta-registrati-sip.png">
+            <!-- <img :src="require('@/assets/cta-registrati.sip.png')" alt="Image"> -->
         </router-link>
     </div>
     

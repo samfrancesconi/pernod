@@ -1,0 +1,87 @@
+{
+  "public/fonts/GillSans.ttc": {
+    "file": "assets/GillSans-278c39d4.ttc",
+    "src": "public/fonts/GillSans.ttc"
+  },
+  "public/fonts/NunitoSans_10pt-Regular.ttf": {
+    "file": "assets/NunitoSans_10pt-Regular-77612289.ttf",
+    "src": "public/fonts/NunitoSans_10pt-Regular.ttf"
+  },
+  "public/fonts/SangBleu-Bold.otf": {
+    "file": "assets/SangBleu-Bold-a0786926.otf",
+    "src": "public/fonts/SangBleu-Bold.otf"
+  },
+  "public/fonts/SangBleu-Medium.otf": {
+    "file": "assets/SangBleu-Medium-4a1abcbd.otf",
+    "src": "public/fonts/SangBleu-Medium.otf"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-644b5809.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/ageGate.js": {
+    "file": "assets/ageGate-f561c654.js",
+    "isEntry": true,
+    "src": "resources/js/ageGate.js"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-b81bafab.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "css": [
+      "assets/app-b81bafab.css"
+    ],
+    "dynamicImports": [
+      "resources/js/pages/Landing.vue",
+      "resources/js/pages/Account.vue",
+      "resources/js/pages/DataInsert.vue",
+      "resources/js/pages/TyConsumer.vue",
+      "resources/js/pages/TyBusiness.vue"
+    ],
+    "file": "assets/app-98e50ffc.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/pages/Account.vue": {
+    "file": "assets/Account-af9c209c.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/pages/Account.vue"
+  },
+  "resources/js/pages/DataInsert.vue": {
+    "file": "assets/DataInsert-ccb21f62.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/pages/DataInsert.vue"
+  },
+  "resources/js/pages/Landing.vue": {
+    "file": "assets/Landing-452d9eb9.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/pages/Landing.vue"
+  },
+  "resources/js/pages/TyBusiness.vue": {
+    "file": "assets/TyBusiness-0f4fd9e1.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/pages/TyBusiness.vue"
+  },
+  "resources/js/pages/TyConsumer.vue": {
+    "file": "assets/TyConsumer-dbbee719.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/pages/TyConsumer.vue"
+  }
+}

@@ -127,7 +127,7 @@
                     class="text-white mb-16 px-7 py-2.5 rounded-md"
                     @click="send"
                 >
-                    <img class="w-60" src="/assets/cta-continua-sip.png">
+                    <!-- <img :src="require('@/assets/cta-continua.sip.png')" alt="Image"> -->
                 </button>
             </div>
         </div>
